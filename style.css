@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #716f9f;
+}
+.title {
+    font-size: 70px;
+    font-weight: 400px;
+    line-height: 78px;
+    margin: 0;
+    text-align: center;
+}
+.product-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background: #F7F7FA;
+    width: 340px;
+    padding: 25px;
+}
+.skin-type {
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #A5A3B9;
+    margin-top: 24px;
+    display: block; /* превратил спан в блочный элемент для margin */
+}
+.card-name {
+    line-height: 27px;
+    font-size: 20px;
+}
+.components {
+    margin-top: 5px;
+    padding-left: 13px;
+}
+.price {
+    display: flex;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.card-price {
+    font-size: 20px;
+}
